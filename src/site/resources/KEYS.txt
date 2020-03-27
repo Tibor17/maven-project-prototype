@@ -1,0 +1,15 @@
+This file contains the PGP&GPG keys of various developers.
+Please don't use them for email unless you have to. Their main
+purpose is code signing.
+
+users: pgp < KEYS
+developers:
+        (pgpk -ll <your name> && pgpk -xa <your name>) >> this file.
+      or
+        (gpg --fingerprint --list-sigs <your name>
+             && gpg --armor --export <your name>) >> this file.
+
+developers: please ensure that your key is also available via the
+PGP keyservers (such as pgpkeys.mit.edu).
+
+

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+    <properties>
+        <title>About XXX</title>
+    </properties>
+    <head>
+        <link rel="stylesheet" href="./css/hopscotch-0.1.2.min.css"/>
+        <script src="scripts/index.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <!-- if you want to use ${project.description} rename this file to index.xml.vm -->
+        <p style="color: #005580">Some description about XXX
+        </p>
+        <div id="carousel-main">
+        <p class="pagination-centered">
+            <a class="btn btn-primary btn-large" href="javascript:startSiteTour()">Let's take a tour »</a>
+        </p>
+
+        <div class="container">
+            <div class="row">
+                <div class="span4" id="welcome-section">
+                    <p>
+                        <b>Welcome</b>
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/Tibor17/maven-project-prototype/wiki/Download%20and%20Install">Download and install</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Tibor17/maven-project-prototype/wiki/Getting%20Started">Getting started</a>
+                        </li>
+                        <li>Release Notes
+                            <ul>
+                                <li>
+                                    <a href="./release-notes-1.0.0.html">1.0.0</a>
+                                    <a href="./release-notes-1.0.0.pdf">[Download PDF]</a>
+                                    <br/>
+                                    <a href="http://10.220.60.167:8080/projects/XXX/versions/10948">1.0.0 - JIRA</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Tibor17/maven-project-prototype/wiki/Maintainer%20Documentation">Maintainer Documentation</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Tibor17/maven-project-prototype/wiki/Deprecation%20Policy">Deprecation policy</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Tibor17/maven-project-prototype/wiki/I%20want%20to%20help!">I want to help!</a>
+                        </li>
+                        <li>
+                            <a href="./faq.html">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="./apidocs/index.html">Current JavaDocs</a>
+                        </li>
+                        <li>
+                            <a href="http://10.197.230.231/job/XXX/job/master/javadoc/">Latest Development JavaDocs</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Tibor17/maven-project-prototype/wiki/home">Wiki</a>
+                        </li>
+                        <li>
+                            <a href="./license.html">License</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="span4" id="concepts-section">
+                    <p>
+                        <b>Usage and Idioms</b>
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="./reference-guide.html#preface">Preface</a>
+                        </li>
+                        <li>
+                            <a href="./reference-guide.html#introduction">Introduction</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="span4" id="thirdparty-section">
+                    <p>
+                        <b>Another Bar</b>
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="./reference-guide.html#xyz">xyz</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="scripts/hopscotch-0.1.2.min.js" type="text/javascript"></script>
+        <script>
+		</script>
+        </div>
+    </body>
+</document>

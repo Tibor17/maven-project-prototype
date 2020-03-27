@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project xmlns="http://maven.apache.org/DECORATION/1.8.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/DECORATION/1.8.0 https://maven.apache.org/xsd/decoration-1.8.0.xsd">
+    <bannerLeft>
+        <name>${this.name}</name>
+        <alt>GitHub XXX Project</alt>
+        <href>${this.sources.url}/blob/master/README.md</href>
+        <src>images/xxx-logo.png</src>
+        <width>128</width>
+        <height>96</height>
+    </bannerLeft>
+
+    <publishDate format="yyyy-MM-dd" position="right" />
+    <version position="right" />
+
+    <poweredBy>
+        <logo name="Built by Maven" href="http://maven.apache.org/" img="images/logos/maven-feather.png" />
+        <logo name="Built on Jenkins CI" href="${this.ciManagement.url}" img="${this.ciManagement.url}/badge/icon" />
+    </poweredBy>
+
+    <skin>
+        <groupId>org.apache.maven.skins</groupId>
+        <artifactId>maven-fluido-skin</artifactId>
+        <version>1.8</version>
+    </skin>
+
+    <body>
+        <head>
+            <![CDATA[<div class="container" style="color: #ccc">Welcome to XXX project ...</div>]]>
+
+            <!--<link rel="stylesheet" href="/css/plain-links.css"/>-->
+            <!--<link rel="stylesheet" href="@relativePath@/css/site.css" type="text/css" />-->
+        </head>
+        <links>
+            <item name="License" href="license.html"/>
+            <item name="Source code" href="${this.sources.url}"/>
+        </links>
+        <breadcrumbs>
+            <item name="» XXX" href="${this.maven.site.url}/" />
+            <item name="See README on GitHub" href="${this.sources.url}/blob/master/README.md"/>
+        </breadcrumbs>
+
+        <menu name="Overview">
+            <item name="Introduction" href="index.html"/>
+            <item name="Frequently asked questions" href="faq.html"/>
+            <item name="Cookbook" href="cookbook.html"/>
+        </menu>
+
+        <menu ref="parent" inherit="bottom"/>
+        <menu ref="modules" inherit="bottom"/>
+        <menu ref="reports" inherit="bottom"/>
+
+        <menu name="Wiki">
+            <item name="Home" href="${this.sources.url}/wikis/Home"/>
+            <item name="README" href="${this.sources.url}/blob/master/README.md"/>
+        </menu>
+
+        <menu name="Reference Guide">
+            <item name="HTML" href="reference-guide.html"/>
+            <item name="PDF" href="reference-guide.pdf"/>
+        </menu>
+
+        <menu name="Contribution">
+            <item name="I Want To Contribute" href="CONTRIBUTING.html"/>
+        </menu>
+
+        <menu name="Developer's Guide">
+            <item name="Coding Style" href="CODING_STYLE.txt"/>
+            <item name="GnuPG KEYS" href="KEYS.txt"/>
+            <item name="How To Cut New Release Version" href="building-xxx.html"/>
+            <item name="Developer's Guide HTML" href="developer-guide.html"/>
+            <item name="Developer's Guide PDF" href="developer-guide.pdf"/>
+            <item name="Maintainer Documentation" href="${this.sources.url}/wikis/Maintainer%20Documentation/"/>
+            <item name="XXX Infrastructure Setup HTML" href="infra.html"/>
+            <item name="XXX Infrastructure Setup PDF" href="infra.pdf"/>
+        </menu>
+    </body>
+
+    <custom>
+        <fluidoSkin>
+            <topBarEnabled>true</topBarEnabled>
+            <sideBarEnabled>false</sideBarEnabled>
+            <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
+            <copyrightClass>pull-right</copyrightClass>
+            <gitHub>
+                <projectId>tibor17/xxx</projectId>
+                <ribbonOrientation>right</ribbonOrientation>
+                <ribbonColor>red</ribbonColor>
+            </gitHub>
+            <breadcrumbDivider>»</breadcrumbDivider>
+            <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
+        </fluidoSkin>
+    </custom>
+</project>

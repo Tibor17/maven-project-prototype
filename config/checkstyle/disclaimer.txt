@@ -1,0 +1,13 @@
+^/\*
+^ \*([^/]|$)
+^ \*
+^ \* This document contains trade secret data which are the property of Tibor17.
+^ \* Information contained herein must not be used,
+^ \* copied or disclosed in whole or part unless permitted in writing by Tibor17.
+^ \*
+^ \* All rights reserved by Tibor17.
+^ \*
+^ \* Copyright \(C\) \d\d\d\d GitHub / Tibor17
+^ \*/
+
+^package

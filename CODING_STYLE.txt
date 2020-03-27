@@ -1,0 +1,9 @@
+The XXX project uses the Java Code Conventions (http://www.oracle.com/technetwork/java/codeconventions-150003.pdf)
+which was originally invented by the same company which developed
+Java(TM) 2 Runtime Environment, Standard Edition; Sun Microsystems, Inc.
+
+Indentation is 4 spaces instead of 2.
+
+Be sure to set text file encoding to UTF-8 and line delimiters to UNIX style.
+
+Since not all code has been formatted yet, please format only code lines you changed to avoid extraneous changes.

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE suppressions PUBLIC
+    "-//Checkstyle//DTD SuppressionFilter Configuration 1.2//EN"
+    "https://checkstyle.org/dtds/suppressions_1_2.dtd">
+
+<suppressions>
+
+  <suppress id="sysout" files=".+Main\.java"/>
+  <suppress id="syserr" files=".+Main\.java"/>
+  <suppress id="sysout" files=".+SshaSupport\.java"/>  
+  <suppress id="syserr" files=".+SshaSupport\.java"/>
+  <suppress id="stacktrace" files=".+Main\.java"/>
+  <suppress id="newDate" files=".*Date\.java"/>
+  <suppress id="newDate" files=".*DateTest\.java"/>
+  <suppress id="calenderInstance" files=".*Date\.java"/>
+  <suppress id="calenderInstance" files=".*DateTest\.java"/>
+
+  <suppress checks="RegexpHeader" files=".package\-info\.java" />
+
+
+</suppressions>
